@@ -1,6 +1,24 @@
-# Tennis Hawk-Eye System v2.0 🎾
+# Repository Multi-Projets 🚀
+
+Ce repository contient deux projets distincts :
+
+## 1. Tennis Hawk-Eye System v2.0 🎾
 
 Un système avancé de détection "in/out" pour le tennis, inspiré du célèbre système Hawk-Eye utilisé dans les tournois professionnels. Cette application utilise l'intelligence artificielle et la vision par ordinateur pour analyser les vidéos de tennis et déterminer automatiquement si une balle est "in" ou "out".
+
+## 2. On mange où? 🍽️ (NOUVEAU)
+
+Une application web responsive qui aide les utilisateurs à décider dans quel restaurant aller ce soir, en choisissant un restaurant au hasard à proximité.
+
+### Accès rapide
+- **Application Restaurant** : `cd restaurant-picker && npm install && npm run dev`
+- **Documentation** : [README Restaurant](restaurant-picker/README.md)
+- **Guide de test** : [DEMO](restaurant-picker/DEMO.md)
+- **Déploiement** : [DEPLOYMENT](restaurant-picker/DEPLOYMENT.md)
+
+---
+
+# Tennis Hawk-Eye System v2.0 🎾 (Projet original)
 
 ## 🚀 Fonctionnalités principales
 
