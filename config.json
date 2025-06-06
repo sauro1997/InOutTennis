@@ -1,0 +1,44 @@
+{
+    "roboflow": {
+        "api_key": "YOUR_API_KEY_HERE",
+        "project": "tennis-misz2",
+        "version": 3,
+        "confidence": 0.3,
+        "overlap": 0.6
+    },
+    "video": {
+        "input_path": "",
+        "output_path": "",
+        "reference_image_path": "",
+        "max_duration_seconds": 30
+    },
+    "court": {
+        "court_corners": [],
+        "service_box_corners": [],
+        "baseline_corners": []
+    },
+    "detection": {
+        "min_ball_confidence": 0.3,
+        "max_tracking_distance": 50,
+        "bounce_detection_threshold": 0.8,
+        "trajectory_smoothing": 0.7
+    },
+    "visualization": {
+        "show_trajectory": true,
+        "show_court_lines": true,
+        "show_confidence": true,
+        "line_thickness": 2,
+        "colors": {
+            "court_boundary": [0, 255, 0],
+            "service_area": [0, 0, 255],
+            "ball_in": [0, 255, 0],
+            "ball_out": [0, 0, 255],
+            "trajectory": [255, 255, 0]
+        }
+    },
+    "audio": {
+        "enabled": false,
+        "in_sound_path": "",
+        "out_sound_path": ""
+    }
+}

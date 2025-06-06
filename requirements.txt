@@ -1,0 +1,34 @@
+# Tennis Hawk-Eye System Requirements
+# ===================================
+
+# Computer Vision and Image Processing
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Machine Learning and AI
+roboflow>=1.1.0
+
+# GUI and Visualization
+pygame>=2.5.0
+
+# Utilities
+pathlib2>=2.3.7
+typing-extensions>=4.7.0
+
+# Development and Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Optional: Audio support
+# pygame already includes basic audio support
+# For advanced audio features, uncomment:
+# pydub>=0.25.1
+# simpleaudio>=1.0.4
+
+# Optional: Advanced image processing
+# scikit-image>=0.21.0
+# Pillow>=10.0.0
+
+# Optional: Performance optimization
+# numba>=0.57.0
+# opencv-contrib-python>=4.8.0
